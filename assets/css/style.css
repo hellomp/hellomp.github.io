@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #202733;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+header h2 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.25rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.icon>a {
+    color: #202733;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+}
