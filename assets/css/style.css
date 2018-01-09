@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #202733;
+    --gray-color: #ccc;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +14,7 @@
 }
 
 header {
-    background: #202733;
+    background: var(--primary-color);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -69,7 +74,7 @@ p {
 }
 
 .icon>a {
-    color: #202733;
+    color: var(--primary-color);
     font-size: 1.5rem;
     line-height: 0;
 }
@@ -80,9 +85,10 @@ p {
     cursor: pointer;
 }
 
-#about {
+#about,
+#portfolio {
     background: #fff;
-    color: #202733;
+    color: var(--primary-color);
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -111,4 +117,72 @@ p {
     line-height: 1.5;
     display: flex;
     align-items: center;
+}
+
+.tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.tab-item {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--gray-color);
+}
+
+.tab-item.active {
+    color: var(--primary-color);
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.portfolio-item {
+    perspective: 1400px;
+    z-index: 0;
+}
+
+.image-container {
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.portfolio-item:hover>.image-container {
+    transform: rotateY(180deg);
+}
+
+.portfolio-item:hover {
+    z-index: 1;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    backface-visibility: hidden;
+}
+
+.image-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: var(--primary-color);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    border-radius: 10px;
 }
