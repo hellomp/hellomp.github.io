@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 715.95 494.21">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 140px;
+        font-family: Raleway-SemiBold, Raleway;
+      }
+
+      .cls-1, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-8, .cls-9 {
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: Raleway-Bold, Raleway;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        opacity: 0.7;
+        font-size: 70px;
+        font-family: Montserrat-Medium, Montserrat;
+      }
+
+      .cls-8, .cls-9 {
+        font-family: Montserrat-SemiBold, Montserrat;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>Header text</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <text class="cls-1" transform="translate(326.48 119.7)"> <tspan class="cls-2" x="34.58" y="0">H x="137.62" y="0">ello</tspan><tspan x="-326.48" y="150">I’m</tspan><tspan class="cls-3" x="-128.1" y="150"> </tspan><tspan class="cls-4" x="-94.5" y="150">M</tspan><tspan class="cls-3" x="25.9" y="150">a</tspan><tspan class="cls-5" x="106.26" y="150">r</tspan><tspan class="cls-6" x="156.8" y="150">c</tspan><tspan class="cls-3" x="235.06" y="150">os</tspan></text>
+      <text class="cls-7" transform="translate(229.52 376.42)">a <tspan class="cls-8" x="58.45" y="0">g</tspan><tspan class="cls-9" x="103.6" y="0">r</tspan><tspan class="cls-8" x="131.53" y="0">aphic </tspan><tspan x="345.3" y="0">and</tspan><tspan class="cls-8"><tspan class="cls-10" x="2.87" y="87.27">w</tspan><tspan x="66.22" y="87.27">eb designer</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
