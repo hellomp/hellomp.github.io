@@ -57,19 +57,20 @@ p {
 }
 
 header>.side-bar {
-    display: none;
+    flex-basis: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    z-index: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     header>.side-bar {
         flex-basis: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
         padding: 20px;
-        height: 100%;
-        z-index: 1;
     }
 }
 
@@ -95,14 +96,21 @@ footer>.social-icons {
 }
 
 .icon {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     background: var(--primary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .icon {
+        width: 2.5em;
+        height: 2.5em;
+    }
 }
 
 footer>.social-icons>.icon {
@@ -115,8 +123,14 @@ footer>.social-icons>.icon:last-child {
 
 .icon>a {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .icon>a {
+        font-size: 1.25rem;
+    }
 }
 
 .arrow {
