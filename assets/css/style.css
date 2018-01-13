@@ -27,14 +27,13 @@ header {
     padding-right: 1rem;
     color: #fff;
     background: var(--primary-color);
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
 @media screen and (min-width: 768px) {
     header {
         padding-right: 2rem;
-        justify-content: space-between;
     }
 }
 
@@ -88,8 +87,7 @@ p {
     }
 }
 
-.logo,
-.header-text {
+.logo {
     width: 100%;
 }
 
@@ -242,16 +240,34 @@ footer>.social-icons>.icon:last-child {
 .tabs {
     display: flex;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+    .tabs {
+        margin-bottom: 40px;
+    }
 }
 
 .tab-item {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-decoration: none;
     color: var(--gray-color);
+}
+
+@media screen and (min-width: 425px) {
+    .tab-item {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tab-item {
+        font-size: 1.7rem;
+    }
 }
 
 .tab-item.active {
