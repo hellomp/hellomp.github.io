@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mpicons';
-  src:  url('fonts/mpicons.eot?m0bzb7');
-  src:  url('fonts/mpicons.eot?m0bzb7#iefix') format('embedded-opentype'),
-    url('fonts/mpicons.ttf?m0bzb7') format('truetype'),
-    url('fonts/mpicons.woff?m0bzb7') format('woff'),
-    url('fonts/mpicons.svg?m0bzb7#mpicons') format('svg');
+  src:  url('../fonts/mpicons.eot?m0bzb7');
+  src:  url('../fonts/mpicons.eot?m0bzb7#iefix') format('embedded-opentype'),
+    url('../fonts/mpicons.ttf?m0bzb7') format('truetype'),
+    url('../fonts/mpicons.woff?m0bzb7') format('woff'),
+    url('../fonts/mpicons.svg?m0bzb7#mpicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
