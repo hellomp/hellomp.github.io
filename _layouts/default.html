@@ -8,7 +8,7 @@
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Raleway:500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/fa-svg-with-js.css">
+    <link rel="stylesheet" href="assets/css/icon-style.css">
 </head>
 
 <body>
@@ -29,24 +29,16 @@
             </svg>
             <div class="social-icons">
                 <div class="icon">
-                    <a href="">
-                        <i class="fa fa-envelope"></i>
-                    </a>
+                    <a href="" class="mp-envelope"></a>
                 </div>
                 <div class="icon">
-                    <a href="">
-                        <i class="fab fa-github"></i>
-                    </a>
+                    <a href="" class="mp-github"></a>
                 </div>
                 <div class="icon">
-                    <a href="">
-                        <i class="fab fa-codepen"></i>
-                    </a>
+                    <a href="" class="mp-codepen"></a>
                 </div>
                 <div class="icon">
-                    <a href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                    <a href="" class="mp-instagram"></a>
                 </div>
             </div>
         </div>
@@ -131,8 +123,8 @@
     </header>
     <section id="about">
         <div class="container">
-            <h4>Let me tell you something</h4>
-            <h3>About me</h3>
+            <h2>Let me tell you something</h2>
+            <h1>About me</h1>
             <div class="content">
                 <div class="avatar-container">
                     <img src="http://i.pravatar.cc/" alt="avatar">
@@ -147,8 +139,8 @@
     </section>
     <section id="portfolio">
         <div class="container">
-            <h4>And show you some of</h4>
-            <h3>My Works</h3>
+            <h2>And show you some of</h2>
+            <h1>My Works</h1>
 
             <div class="tabs">
                 <a href="#" class="tab-item active">All</a>
@@ -185,31 +177,38 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Here you can</h2>
+            <h1>Contact me</h1>
+            <form class="contact-form" action="">
+                <input type="text" name="name" id="form-name" placeholder="Your name">
+                <input type="email" name="email" id="form-email" placeholder="Your email">
+                <textarea name="message" id="form-message" rows="10" placeholder="Your message"></textarea>
+                <input type="submit" value="Submit" id="form-submit">
+            </form>
+        </div>
+    </section>
     <footer>
-        <div class="social-icons">
-            <div class="icon">
-                <a href="">
-                    <i class="fa fa-envelope"></i>
-                </a>
-            </div>
-            <div class="icon">
-                <a href="">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <div class="icon">
-                <a href="">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </div>
-            <div class="icon">
-                <a href="">
-                    <i class="fab fa-instagram"></i>
-                </a>
+        <div class="container">
+            <div class="footer-container">
+                <div class="social-icons">
+                    <div class="icon">
+                        <a href="" class="mp-envelope"></a>
+                    </div>
+                    <div class="icon">
+                        <a href="" class="mp-github"></a>
+                    </div>
+                    <div class="icon">
+                        <a href="" class="mp-codepen"></a>
+                    </div>
+                    <div class="icon">
+                        <a href="" class="mp-instagram"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    <script src="assets/js/fontawesome-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
         particlesJS.load('particles-js', 'assets/particlesjs-config.json', function () {
